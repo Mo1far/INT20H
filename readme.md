@@ -1,6 +1,6 @@
-#CheapestBuckwheat [INT20H test-task]
+# CheapestBuckwheat [INT20H test-task]
 
-#####This project can compare prices of buckwheat in 3 stores: rozetka.com.ua, Auchan and Novus.
+##### This project can compare prices of buckwheat in 3 stores: rozetka.com.ua, Auchan and Novus.
 
 #### How to run it?
 ```
