@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="text-center">Ціни на гречану крупу</h1>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">Назва</th>
+            <th scope="col">Ціна</th>
+            <th scope="col">Посилання</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for product in products_list %}
+            <tr>
+                <td>{{ product.title }}</td>
+                <td>{{ product.cost }}</td>
+                <td><a href="{{ product.link }}">На сайт</a></td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+{% endblock %}
